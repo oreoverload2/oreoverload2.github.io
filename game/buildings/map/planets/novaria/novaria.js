@@ -11,11 +11,11 @@ const buttons_mine = document.querySelectorAll('.building-b-m');
 // loop through each button
 buttons_mine.forEach(mine => {
     let minenum = mine.getAttribute("data-building")
-    let mine1_state = localStateDict[localPlayerDict.planet][minenum];
+    let mine_state = localStateDict[localPlayerDict.planet][minenum];
 
-    console.log(mine1_state)
+    console.log(mine_state)
 
-    if (!mine1_state) {
+    if (!mine_state) {
         if (!mine.disabled) {
             mine.disabled = true;
             mine.style.backgroundColor = '#212121';
@@ -23,6 +23,10 @@ buttons_mine.forEach(mine => {
             const p = mine.querySelector('p');
             p.style.backgroundColor = '#6B3B00';
         }
+    } else {
+        mine.addEventListener("click", () => {
+            window.location.href = ""
+        })
     }
 });
 

@@ -1,4 +1,4 @@
-import { returnDictData, player_key, state_key} from '../../global/js/storage.js';
+import { returnDictData, player_key, state_key} from './storage.js';
 import { playerDict } from '../../data/playerdata.js';
 import { worldstateDict } from '../../data/worldstatedata.js';
 
