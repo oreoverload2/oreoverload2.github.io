@@ -1,38 +1,38 @@
-import { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, returnDictData, player_key, spaceplanetrotation_key } from '../../../global/js/storage.js';
+import { setStorageItem, getStorageItem, returnDictData, player_key, spaceplanetrotation_key } from '../../../global/js/storage.js';
 import { playerDict } from '../../../data/playerdata.js';
 
 /* Ring radius */
-var radius = 300;
+let radius = 350;
 
 /* Planet size */
 let planet_size = 128;
 
 /* Number of markers */
-var numMarkers = 10;
+let numMarkers = 10;
 
 /* Calculate the angle between markers */
-var angle = (2 * Math.PI) / numMarkers;
+let angle = (2 * Math.PI) / numMarkers;
 
 /* Initialize rotation angle */
-var rotationAngle = getStorageItem(spaceplanetrotation_key);
+let rotationAngle = getStorageItem(spaceplanetrotation_key);
 
 /* Define function to update rotation angle */
 function updateRotationAngle() {
-  rotationAngle += 0.005; // increment rotation angle by 1 degree
-  if (rotationAngle > 6.275) {
-    rotationAngle = 0; // reset rotation angle to 0 after completing a full circle
-  }
-  setStorageItem(spaceplanetrotation_key, rotationAngle)
-  // Loop through each marker and update its position
-  for (var i = 1; i <= numMarkers; i++) {
-    var marker = document.getElementById("marker-" + i);
-    var x = radius * Math.cos((i - 2) * angle + rotationAngle);
-    var y = radius * Math.sin((i - 2) * angle + rotationAngle);
-    marker.style.left = `calc(50vw - ${planet_size/2}px + ${x}px)`;
-    marker.style.top = `calc(50vh - ${planet_size/2}px + ${y}px)`;
-  }
-  // Schedule the next update
-  setTimeout(updateRotationAngle, 100); // replace 10 with the desired delay in milliseconds
+    rotationAngle += 0.005; // increment rotation angle by 1 degree
+    if (rotationAngle > 6.275) {
+        rotationAngle = 0; // reset rotation angle to 0 after completing a full circle
+    }
+    setStorageItem(spaceplanetrotation_key, rotationAngle)
+    // Loop through each marker and update its position
+    for (let i = 1; i <= numMarkers; i++) {
+        let marker = document.getElementById("marker-" + i);
+        let x = radius * Math.cos((i - 2) * angle + rotationAngle);
+        let y = radius * Math.sin((i - 2) * angle + rotationAngle);
+        marker.style.left = `calc(50vw - ${planet_size/2}px + ${x}px)`;
+        marker.style.top = `calc(50vh - ${planet_size/2}px + ${y}px)`;
+    }
+    // Schedule the next update
+    setTimeout(updateRotationAngle, 100); // replace 10 with the desired delay in milliseconds
 }
 
 // Start the loop

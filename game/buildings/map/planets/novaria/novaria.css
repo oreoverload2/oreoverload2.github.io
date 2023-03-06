@@ -8,24 +8,23 @@
 }
 
 /* style for the mines container */
-.mines {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* style for the mine button */
 .mines .building-b-m {
     margin: 0 30px;
+    margin-bottom: 100px;
 }
 
-/* style for the industry container */
-.industry {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.mines {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .industry-container {

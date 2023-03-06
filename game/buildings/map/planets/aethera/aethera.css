@@ -1,0 +1,86 @@
+/* style for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+/* style for the mines container */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* style for the mine button */
+.mines .building-b-m {
+    margin: 0 30px;
+    margin-bottom: 100px;
+}
+
+.mines {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.industry-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+/* style for the button */
+.building-b, .building-b-m {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: solid 2px #C16A00;
+    color: white;
+    cursor: pointer;
+    overflow: hidden; /* add this line to hide the text */
+}
+
+/* style for the paragraph element */
+.building-p, .building-p-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFA12D;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.25s ease-in-out;
+    transform: translate(0, -100%);
+}
+
+/* style for the image */
+.container img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+}
+
+/* when the button is hovered, slide the paragraph element down */
+.building-b:hover .building-p {
+    transform: translate(0, 0);
+}
+
+/* when the button is hovered, slide the paragraph element down */
+.building-b-m:hover .building-p-m {
+    transform: translate(0, 0);
+}

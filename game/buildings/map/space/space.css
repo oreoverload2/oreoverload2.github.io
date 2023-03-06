@@ -1,15 +1,15 @@
 :root {
-    --sun-url:        url("../../../img/space/planets/sun.png");
-    --novaria-url:    url("../../../img/space/planets/novaria.png");
-    --aethera-url:    url("../../../img/space/planets/aethera.png");
-    --helion-url:     url("../../../img/space/planets/helion.png");
-    --terra-nova-url: url("../../../img/space/planets/terra_nova.png");
-    --arcadia-url:    url("../../../img/space/planets/arcadia.png");
-    --cerulea-url:    url("../../../img/space/planets/cerulea.png");
-    --xenos-url:      url("../../../img/space/planets/xenos.png");
-    --titanus-url:    url("../../../img/space/planets/titanus.png");
-    --eridanus-url:   url("../../../img/space/planets/eridanus.png");
-    --aurius-url:     url("../../../img/space/planets/aurius.png");
+    --sun-url:         url("../../../img/space/planets/sun.png");
+    --novaria-url:     url("../../../img/space/planets/novaria.png");
+    --aethera-url:     url("../../../img/space/planets/aethera.png");
+    --helion-url:      url("../../../img/space/planets/helion.png");
+    --terra-nova-url:  url("../../../img/space/planets/terra_nova.png");
+    --arcadia-url:     url("../../../img/space/planets/arcadia.png");
+    --cerulea-url:     url("../../../img/space/planets/cerulea.png");
+    --xenos-url:       url("../../../img/space/planets/xenos.png");
+    --titanus-url:     url("../../../img/space/planets/titanus.png");
+    --eridanus-url:    url("../../../img/space/planets/eridanus.png");
+    --aurius-url:      url("../../../img/space/planets/aurius.png");
 
     --planet-size: 128px;
 
@@ -105,7 +105,7 @@
 
 #marker-sun:hover {
     filter: brightness(0.75);
-    filter: drop-shadow(0 0 200px #ff790c);
+    filter: drop-shadow(0 0 75px #ff790c);
     transform: scale(1.075);
 }
 
