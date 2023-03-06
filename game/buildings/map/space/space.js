@@ -1,4 +1,5 @@
-import { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, player_key, spaceplanetrotation_key } from '../../../global/js/storage.js';
+import { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, returnDictData, player_key, spaceplanetrotation_key } from '../../../global/js/storage.js';
+import { playerDict } from '../../../data/playerdata.js';
 
 /* Ring radius */
 var radius = 300;
@@ -39,7 +40,7 @@ updateRotationAngle();
 
 
 function savePlanet(planet) {
-    const playerData = getStorageItem(player_key)
+    const playerData = returnDictData(player_key, playerDict)
     playerData.planet = planet
     setStorageItem(player_key, playerData);
     window.location.href=`../planets/${planet}/${planet}.html`
