@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Specifies the character encoding used in the document -->
+    <meta charset="UTF-8">
+
+    <!-- Sets the viewport of the web page to be the width of the device that is viewing it, and sets the initial zoom level to 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Provides a brief description of your game, which may be used by search engines when displaying search results -->
+    <meta name="description" content="Ore Overload 2 is the second verison of Ore Overload. The game is about exproing planets and mining resources. You will sell ores and build your own mining empire!">
+
+    <!-- Specifies the keywords that are relevant to your game, which may also be used by search engines when displaying search results -->
+    <meta name="keywords" content="oreoverload2, game, browser game, mining game, mining, space, future, robots, currency, upgrades, exploration, trading, stock market, stocks, casino, gambling, achievements, planets, ores, excavation, resources, research.">
+
+    <!-- Specifies the author of the game -->
+    <meta name="author" content="Robert Hernes Arnorsson">
+
+    <!-- Tells search engine crawlers whether or not to index and follow the links on your web page -->
+    <meta name="robots" content="index, nofollow">
+
+    <!-- Specifies the color scheme of your game for use in mobile browsers -->
+    <meta name="theme-color" content="#color">
+
+    <!-- Specifies that your game is designed to be used as a web application on iOS devices -->
+    <meta name="apple-mobile-web-app-capable" content="no">
+
+    <!-- Specifies the title of your game as it should appear when shared on social media -->
+    <meta name="og:title" content="Ore Overload 2">
+
+    <!-- Specifies the image that should be used when sharing your game on social media -->
+    <meta property="og:image" content="./game/img/logo1000x1000.png">
+
+    <!-- Specifies the URL of your game -->
+    <meta property="og:url" content="index.html">
+
+    <!-- Specifies the description of your game that should be used when sharing on social media -->
+    <meta property="og:description" content="Ore Overload 2 is the second verison of Ore Overload. The game is about exproing planets and mining resources. You will sell ores and build your own mining empire!">
+
+	<title>Buildings</title>
+	<link rel="stylesheet" type="text/css" href="game/css/body.css">
+    <style>
+        .body {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            border-color: #FFA12D;
+            font-size: 48px;
+        }
+        
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: #FFA12D;
+            border: 1px solid;
+            border-color: #FFA12D;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rerouting...</h1>
+    <a id="notrerouted">&#8674; Click here if you're not rerouted &#8672;</a>
+</body>
+<script>
+    const reroutelink = "game/start/start.html"
+
+    const notrerouted = document.getElementById("notrerouted");
+
+    window.addEventListener("load", () => {
+        const mainpage = window.location.href;
+        let splitUrl = mainpage.split("/");
+        let newUrl = splitUrl.slice(0, 3).join("/")+"/";
+        console.log(mainpage);
+        console.log(newUrl);
+        window.location.href = newUrl+reroutelink;
+    })
+
+    notrerouted.addEventListener("click", () => {
+        const mainpage = window.location.href;
+        let splitUrl = mainpage.split("/");
+        let newUrl = splitUrl.slice(0, 3).join("/")+"/";
+        console.log(mainpage);
+        console.log(newUrl);
+        window.location.href = newUrl+reroutelink;
+    })
+</script>
+</html>
