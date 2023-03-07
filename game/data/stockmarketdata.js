@@ -1,55 +1,121 @@
-let stockmarketDict = {
-    novaria: {
-        ffr: {
-            company: "Frozen Frontier Resources (FFR)",
-            name: "FFR",
-            change: []
-        },
-        clt: {
-            company: "CryoLife Technologies (CLT)",
-            name: "CLT",
-            change: []
-        },
-        ii: {
-            company: "Iceberg Innovations (II)",
-            name: "II",
-            change: []
-        }
+let stockmarketDict = [
+    {
+        planet: "Novaria",
+        company: "Frozen Frontier Resources (FFR)",
+        name: "FFR",
+        symbol: "◈",
+        basePrice: 10,
+        price: 10,
+        changeList: [],
+        volatility: 1.5,
+        change: 0,
+        shares: 0,
+        index: 0,
     },
-    aethera: {
-        shm: {   
-            company: "SkyHarvest Mining (SHM)",
-            name: "SHM",
-            change: []
-        },
-        aai: {  
-            company: "Airborne Adaptations Inc. (AAI)",
-            name: "AAI",
-            change: []
-        },
-        cce: {
-            company: "Cloud City Energy (CCE)",
-            name: "CCE",
-            change: []
-        }
+    {
+        planet: "Novaria",
+        company: "CryoLife Technologies (CLT)",
+        name: "CLT",
+        symbol: "◈",
+        basePrice: 10,
+        price: 10,
+        changeList: [],
+        volatility: 1,
+        change: 0,
+        shares: 0,
+        index: 1,
     },
-    helion: {
-        ddc: {
-            company: "Desert Diggers Corp. (DDC)",
-            name: "DDC",
-            change: []
-        },
-        sss: {
-            company: "SunStorm Solutions (SSS)",
-            name: "SSS",
-            change: []
-        },
-        ooi: {
-            company: "Oasis Outfitters Inc. (OOI)",
-            name: "OOI",
-            change: []
-        }
+    {
+        planet: "Novaria",
+        company: "Iceberg Innovations (II)",
+        name: "II",
+        symbol: "◈",
+        basePrice: 10,
+        price: 10,
+        changeList: [],
+        volatility: 1,
+        change: 0,
+        shares: 0,
+        index: 2,
+    },
+    {
+        planet: "Aethera",
+        company: "SkyHarvest Mining (SHM)",
+        name: "SHM",
+        symbol: "◈",
+        basePrice: 20,
+        price: 20,
+        changeList: [],
+        volatility: 0.8,
+        change: 0,
+        shares: 0,
+        index: 3,
+    },
+    {
+        planet: "Aethera",
+        company: "Airborne Adaptations Inc. (AAI)",
+        name: "AAI",
+        symbol: "◈",
+        basePrice: 20,
+        price: 20,
+        changeList: [],
+        volatility: 1,
+        change: 0,
+        shares: 0,
+        index: 4,
+    },
+    {
+        planet: "Aethera",
+        company: "Cloud City Energy (CCE)",
+        name: "CCE",
+        symbol: "◈",
+        basePrice: 20,
+        price: 20,
+        changeList: [],
+        volatility: 1,
+        change: 0,
+        shares: 0,
+        index: 5,
+    },
+    {
+        planet: "Helion",
+        company: "Desert Diggers Corp. (DDC)",
+        name: "DDC",
+        symbol: "◈",
+        basePrice: 30,
+        price: 30,
+        changeList: [],
+        volatility: 2,
+        change: 0,
+        shares: 0,
+        index: 6,
+    },
+    {
+        planet: "Helion",
+        company: "SunStorm Solutions (SSS)",
+        name: "SSS",
+        symbol: "◈",
+        basePrice: 30,
+        price: 30,
+        changeList: [],
+        volatility: 1,
+        change: 0,
+        shares: 0,
+        index: 7,
+    },
+    {
+        planet: "Helion",
+        company: "Oasis Outfitters Inc. (OOI)",
+        name: "OOI",
+        symbol: "◈",
+        basePrice: 30,
+        price: 30,
+        changeList: [],
+        volatility: 2,
+        change: 0,
+        shares: 0,
+        index: 8,
     }
-}
+];
 
 export { stockmarketDict }

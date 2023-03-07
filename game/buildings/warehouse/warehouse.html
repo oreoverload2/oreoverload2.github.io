@@ -3,22 +3,683 @@
 <head>
     <meta charset="UTF-8">
     <title>Ore Overload 2</title>
-	<link rel="stylesheet" type="text/css" href="../../../../global/css/global.css">
-	<link rel="stylesheet" type="text/css" href="../../../../global/css/infobar.css">
+	<link rel="stylesheet" type="text/css" href="./warehouse.css">
+
+	<link rel="stylesheet" type="text/css" href="../../global/css/global.css">
+	<link rel="stylesheet" type="text/css" href="../../global/css/infobar.css">
 </head>
 <body>
 	<div class="info">
         <div id="info-div">
-            <div id="map-select">
-                <div id="map-button">
+            <div id="info-select">
+                <div id="info-button">
                     <a id="info-back" draggable="false"><span>&larr; Back</span></a>
                 </div>
             </div>
-            
             <h1 id="money">◈ 0</h1>
-
         </div>
     </div>
+    <div id="hover-box"></div>
+	<div class="grid-container">
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Novaria</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+                    </thead>
+                    <tbody>
+						<tr data-ore="novaria, cryonite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, glacialite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, crystaline ice, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, frost iron, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, frostbite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, blizzardstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, snow quartz, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, auroraite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, ice diamond, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="novaria, cryosium, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Aethera</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-ore="aethera, voidstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, solarium, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, nebulite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, lunarite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, celestium, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, star metal, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, cometstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, astralite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, aeromite, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="aethera, aetherium, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Helion</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-ore="helion, sandstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, dune glass, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, iron sand, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, scorchstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, sandstorm crystal, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, sunstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, sand ruby, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, desert emerald, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, sandstone marble, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="helion, dusty quartz, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Terra Nova</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-ore="terra nova, sandstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, dune glass, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, iron sand, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, scorchstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, sandstorm crystal, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, sunstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, sand ruby, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, desert emerald, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, sandstone marble, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="terra nova, dusty quartz, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Arcadia</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-ore="arcadia, sandstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, dune glass, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, iron sand, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, scorchstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, sandstorm crystal, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, sunstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, sand ruby, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, desert emerald, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, sandstone marble, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="arcadia, dusty quartz, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item">
+			<div class="grid-title">
+				<span class="grid-title-text">Cerulea</span>
+			</div>
+			<div class="grid-table-div">
+				<table class="ore-table">
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-ore="cerulea, sandstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, dune glass, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, iron sand, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, scorchstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, sandstorm crystal, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, sunstone, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, sand ruby, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, desert emerald, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, sandstone marble, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+						<tr data-ore="cerulea, dusty quartz, ore">
+							<td>
+								<img draggable="false">
+							</td>
+							<td class="name-td">
+								<span></span>
+							</td>
+							<td class="ore-amount">0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+	</div>
 </body>
-<script type="module" src="../../../../global/js/back.js"></script>
+<script type="module" src="./warehouse.js"></script>
+
+<script type="module" src="../../global/js/back.js"></script>
+<script type="module" src="../../global/js/updateMoney.js"></script>
+<script type="module" src="../../global/js/storage.js"></script>
+<script type="module" src="../../global/js/checkstateplanet.js"></script>
+<script type="module" src="../../data/worldstatedata.js"></script>
 </html>

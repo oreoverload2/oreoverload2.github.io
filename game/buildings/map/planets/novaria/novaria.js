@@ -1,9 +1,11 @@
-import { returnDictData, player_key, state_key} from '../../../../global/js/storage.js';
+import { returnDictData, player_key, state_key, removeStorageItem} from '../../../../global/js/storage.js';
 import { playerDict } from '../../../../data/playerdata.js';
 import { worldstateDict } from '../../../../data/worldstatedata.js';
 
 let localPlayerDict = returnDictData(player_key, playerDict);
 let localStateDict = returnDictData(state_key, worldstateDict);
+
+//removeStorageItem(state_key)
 
 const buttons_buildings = document.querySelectorAll('.building-b');
 const buttons_mine = document.querySelectorAll('.building-b-m');
@@ -25,7 +27,7 @@ buttons_mine.forEach(mine => {
         }
     } else {
         mine.addEventListener("click", () => {
-            window.location.href = ""
+            window.location.href = `../../../mines/${minenum}/${minenum}.html`
         })
     }
 });
@@ -44,5 +46,13 @@ buttons_buildings.forEach(building => {
             const p = building.querySelector('p');
             p.style.backgroundColor = '#6B3B00';
         }
+    } else {
+        building.addEventListener("click", () => {
+            if (buildingname === "shop") {
+                window.location.href = `../../../${buildingname}/${buildingname}/${buildingname}.html`
+            } else {
+                window.location.href = `../../../${buildingname}/${buildingname}.html`
+            }
+        })
     }
 });

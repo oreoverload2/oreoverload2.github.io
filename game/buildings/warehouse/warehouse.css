@@ -1,0 +1,130 @@
+/* Define variables for the images */
+:root {
+    --cryonite-img:        url("../../img/ore/novaria/Cryonite.png");
+    --glacialite-img:      url("../../img/ore/novaria/Glacialite.png");
+    --crystaline-ice-img:  url("../../img/ore/novaria/Crystaline Ice.png");
+    --frost-iron-img:      url("../../img/ore/novaria/Frost Iron.png");
+    --frostbite-img:       url("../../img/ore/novaria/Frostbite.png");
+    --blizzardstone-img:   url("../../img/ore/novaria/Blizzardstone.png");
+    --snow-quartz-img:     url("../../img/ore/novaria/Snow Quartz.png");
+    --auroraite-img:       url("../../img/template.png");
+    --ice-diamond-img:     url("../../img/template.png");
+  }
+  
+  /* Style for the ore table */
+  .ore-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .ore-table td,
+  .ore-table th {
+    padding: 10px;
+    padding-left: 15px;
+    text-align: center;
+  }
+  
+  /* Style for the images in the ore table */
+  .ore-table td img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
+
+  .ore-table td span {
+    text-align: left;
+    display: block;
+    font-size: 1.1em;
+  }
+
+  
+  /* Style for the images on hover */
+  .ore-table td img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px #b6b6b6);
+  }
+  
+  /* Style for the hover box */
+  #hover-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  /* Style for the hover text */
+  #hover-box::before {
+    content: attr(data-hover-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  /* Show hover box and hover text on image hover */
+  .ore-table td img:hover + #hover-box {
+    opacity: 1;
+  }
+  
+  .ore-table td img:hover + #hover-box::before {
+    opacity: 1;
+  }
+  
+  /* Style for the ore amount */
+  .ore-amount {
+    font-weight: bold;
+    color: #FFA12D;
+    text-align: right;
+    width: 7.5em;
+  }
+  
+  /* Style for the grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  /* Style for the grid item */
+  .grid-item {
+    border: 0px solid #ccc;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style for the grid title */
+  .grid-title {
+    background-color: #FFA12D;
+    color: #212121;
+    padding: 10px;
+  }
+  
+  /* Style for the grid title text */
+  .grid-title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Style for the grid table div */
+  .grid-table-div {
+    overflow-x: auto;
+  }
+  

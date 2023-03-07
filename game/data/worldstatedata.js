@@ -63,12 +63,12 @@ let worldstateDict = {
         mine3: false,
     },
     global: {
-        factory: false,
-        refinery: false,
-        labratory: true,
+        factory: true,
+        refinery: true,
+        laboratory: true,
         warehouse: true,
         shop: true,
-        stockmarket: false,
+        stockmarket: true,
     }
 }
 

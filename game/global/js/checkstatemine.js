@@ -8,12 +8,15 @@ let localStateDict = returnDictData(state_key, worldstateDict);
 let debug = false;
 
 window.addEventListener("load", () => {
+    let mine = window.location.href;
+    mine = mine.split("/").slice(-2)[0];
+
     console.log(localPlayerDict.planet)
-    console.log("State "+localStateDict[localPlayerDict.planet].state)
+    console.log("State "+localStateDict[localPlayerDict.planet][mine])
 
-    let planet_state = localStateDict[localPlayerDict.planet].state;
+    let mine_state = localStateDict[localPlayerDict.planet][mine];
 
-    if (!planet_state && !debug) {
+    if (!mine_state && !debug) {
         window.history.back()
     }
 })
