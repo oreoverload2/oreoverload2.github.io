@@ -131,7 +131,7 @@
 /* Style for the grid item */
 .grid-item {
     border: none;
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
 }
   
 /* Style for the grid title */
