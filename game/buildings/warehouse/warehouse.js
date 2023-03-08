@@ -5,16 +5,6 @@ import { oreDict } from '../../data/oredata.js';
 const oreImg = document.querySelector('.ore-img');
 const oreName = document.querySelector('.ore-name');
 
-oreImg.addEventListener('click', () => {
-    console.log("Hover Over");
-    oreName.classList.add('white-text');
-});
-
-oreImg.addEventListener('mouseout', () => {
-    console.log("Hover Out");
-    oreName.classList.remove('white-text');
-});
-
 let localOreDict = returnDictData(ore_key, oreDict);
 
 const rowElements = document.querySelectorAll('tr[data-ore]');

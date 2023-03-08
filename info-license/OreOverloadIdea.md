@@ -231,11 +231,3 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 # Functions And How It Work Behind The Curtains
 ## The ore system
 * The ores has a name, price
-
-
-
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: pixelated;
-    -ms-interpolation-mode: nearest-neighbor;
