@@ -26,7 +26,7 @@ rowElements.forEach((row) => {
     const img = row.querySelector('img');
 
     // Set the image source based on the ore name and item type
-    const imageUrl = `../../img/${itemType}/${planet}/${oreName}.png`;
+    const imageUrl = `../../img/${itemType}/${planet}/${oreNameCapitalized}.png`;
     const imageObj = new Image();
     imageObj.onload = () => {
         // Image is valid
