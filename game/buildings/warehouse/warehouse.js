@@ -1,6 +1,20 @@
 import { returnDictData, ore_key} from '../../global/js/storage.js';
 import { oreDict } from '../../data/oredata.js';
 
+// JavaScript code
+const oreImg = document.querySelector('.ore-img');
+const oreName = document.querySelector('.ore-name');
+
+oreImg.addEventListener('click', () => {
+    console.log("Hover Over");
+    oreName.classList.add('white-text');
+});
+
+oreImg.addEventListener('mouseout', () => {
+    console.log("Hover Out");
+    oreName.classList.remove('white-text');
+});
+
 let localOreDict = returnDictData(ore_key, oreDict);
 
 const rowElements = document.querySelectorAll('tr[data-ore]');
@@ -26,7 +40,7 @@ rowElements.forEach((row) => {
     const img = row.querySelector('img');
 
     // Set the image source based on the ore name and item type
-    const imageUrl = `../../img/${itemType}/${planet}/${oreName}.png`;
+    const imageUrl = `../../img/${itemType}/${planet}/${oreNameCapitalized}.png`;
     const imageObj = new Image();
     imageObj.onload = () => {
         // Image is valid
@@ -38,3 +52,4 @@ rowElements.forEach((row) => {
     };
     imageObj.src = imageUrl;
 });
+

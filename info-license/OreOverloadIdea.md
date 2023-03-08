@@ -171,7 +171,7 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 
 | Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
 | -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |
-| Sandstone | $1000 | 70 | 120 | Aethera | 100 |  A sedimentary rock formed by sand particles fused together over time, rich in minerals and trace elements. |
+| Sandstone | $1000 | 70 | 120 | Aethera | 100 | A sedimentary rock formed by sand particles fused together over time, rich in minerals and trace elements. |
 | Dune Glass | $2000 | 60 | 100 | Aethera | 200 | A translucent mineral formed by the intense heat and pressure of sandstorms, used in high-tech optics. |
 | Iron Sand | $3000 | 50 | 90 | Aethera | 300 | A type of sand that contains high levels of iron and can be smelted into iron bars for construction. |
 | Scorchstone | $4000 | 40 | 80 | Aethera | 400 | Volcanic rock that is highly resistant to heat, often used in construction on Helion. |
@@ -182,6 +182,60 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 | Sandstone Marble | $9000 | 5 | 30 | Aethera | 900 | A type of marble formed by compressed sand particles, valued for its texture and durability. |
 | Dusty Quartz | $10000 | 0 | 20 | Aethera | 1000 | A quartz with a unique dusty appearance found in remote regions, used in high-tech manufacturing. |
 
+## Terra Nova
+
+| Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
+| -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |
+| Verdanite | $1000 | 70 | 120 | Aethera | 100 | A green crystal found deep in the planet's crust that conducts energy, used for advanced machinery and weapons. |
+| Ruinstone | $2000 | 60 | 100 | Aethera | 200 | A dark, jagged mineral found in ancient ruins with mystical properties, used for magical artifacts. |
+| Predatorite | $3000 | 50 | 90 | Aethera | 300 | A black mineral found in the bones and teeth of dangerous predators, incredibly durable, used for armor and weapons. |
+| Bioluminite | $4000 | 40 | 80 | Aethera | 400 | A glowing mineral found in bioluminescent flora and fauna, used as an energy source or in decorations and jewelry. |
+| Herbite | $5000 | 30 | 70 | Aethera | 500 | A leafy green mineral found in lush vegetation, has healing properties, used for medicinal treatments. |
+| Ferrovine | $6000 | 20 | 60 | Aethera | 600 | A red mineral found in iron-rich soil, highly magnetic, used in electrical components. |
+| Fossilite | $7000 | 15 | 50 | Aethera | 700 | An ancient mineral found in fossils, used in museum exhibits and scientific research. |
+| Skyshard | $8000 | 10 | 40 | Aethera | 800 | A blue crystal found in the planet's upper atmosphere, rare and valuable, used in advanced spacecraft technology. |
+| Thunderstone | $9000 | 5 | 30 | Aethera | 900 | A yellow mineral found in thunderstorms, highly conductive, used in lightning-based weaponry. |
+| Edenite | $10000 | 0 | 20 | Aethera | 1000 | A shimmering mineral found in the planet's most verdant areas, possesses powerful magical properties, used in mystical artifacts. |
+
+## Terra Nova
+
+| Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
+| -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |
+| Lumberite | $1000 | 70 | 120 | Aethera | 100 | A brown mineral found in the planet's giant trees, used for crafting high-quality wood and building materials. |
+| Forest Emerald | $2000 | 60 | 100 | Aethera | 200 | A green crystal found deep within the planet's forests, has mystical properties that enhance magical powers and spells. |
+| Fernite | $3000 | 50 | 90 | Aethera | 300 | A green crystal found deep within the planet's forests, has mystical properties that enhance magical powers and spells. |
+| Beaststone | $4000 | 40 | 80 | Aethera | 400 | A dark grey mineral found in the bones and teeth of exotic creatures, known for its exceptional durability and resilience, ideal for weapons and armor. |
+| Vineite | $5000 | 30 | 70 | Aethera | 500 | A green mineral found in the vines and creepers that wrap around the trees, has the ability to regenerate and rejuvenate damaged tissue. |
+| Rootsapphire | $6000 | 20 | 60 | Aethera | 600 | A blue mineral found in the roots of the giant trees, has a calming effect on those who touch it, commonly used in potions and elixirs. |
+| Mossite | $7000 | 15 | 50 | Aethera | 700 | A light green mineral found in the moss that covers the forest floor, can absorb and store energy, useful for powering machinery and devices. |
+| Woodstone | $8000 | 10 | 40 | Aethera | 800 | A brown mineral found in petrified wood, has the strength and durability of stone while retaining the appearance of wood, great for building. |
+| Canopy Quartz | $9000 | 5 | 30 | Aethera | 900 | A clear crystal found high in the treetops, has the ability to refract light, used for creating lenses and prisms for telescopes and other devices. |
+| Jungle Ruby | $10000 | 0 | 20 | Aethera | 1000 | A red crystal found in the heart of the densest jungles, believed to have the power to control the growth and movement of plants, commonly used in spells and magical incantations. |
+
+## Aethera
+
+| Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
+| -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |
+| Aquamarite | $1000 | 70 | 120 | Aethera | 100 | A blue-green mineral found in the planet's oceans, highly reflective and resistant to corrosion, used in the creation of high-tech underwater equipment. |
+| Stormstone | $2000 | 60 | 100 | Aethera | 200 | A jagged mineral found in areas hit by frequent storms, imbued with electrical properties, used in the creation of lightning-based technology. |
+| Tidecrystal | $3000 | 50 | 90 | Aethera | 300 | A translucent mineral found in the depths of the planet's ocean, sensitive to pressure changes, used in the creation of sonar and other deep-sea technologies. |
+| Coralium | $4000 | 40 | 80 | Aethera | 400 | A pink mineral found in the planet's vibrant coral reefs, used in the creation of decorative items and jewelry. |
+| Leviathanite | $5000 | 30 | 70 | Aethera | 500 | A rare and valuable ore that is said to have fallen from the heavens. It is used in the creation of powerful magical artifacts. |
+| Kelpstone | $6000 | 20 | 60 | Aethera | 600 | A metallic ore that is infused with the energy of the stars. It is highly conductive and is used in the creation of advanced electronics. |
+| Bioluminite | $7000 | 15 | 50 | Aethera | 700 | A rare and beautiful ore that resembles a comet streaking through the sky. It is often used in jewelry and other decorative items. |
+| Seastone | $8000 | 10 | 40 | Aethera | 800 | A shimmering blue ore that is imbued with mystical energy. It is used to power magical devices and is a key component in spellcasting. |
+| Krakenite | $9000 | 5 | 30 | Aethera | 900 | A lightweight ore that is prized for its durability and resistance to heat. It is often used in the construction of spacecraft and other high-tech machinery. |
+| Mermaidite | $10000 | 0 | 20 | Aethera | 1000 | A rare and valuable ore that glows with an otherworldly aura. It is said to contain immense power and is often used in magical rituals. |
+
+
 # Functions And How It Work Behind The Curtains
 ## The ore system
 * The ores has a name, price
+
+
+
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
