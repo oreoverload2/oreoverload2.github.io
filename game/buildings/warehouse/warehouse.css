@@ -10,7 +10,70 @@
     --auroraite-img:       url("../../img/template.png");
     --ice-diamond-img:     url("../../img/template.png");
 }
+
+.progress-header {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: -15px;
+    color: #FFA12D;
+}
+
+.warehouse-info {
+    margin: 40px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.warehouse-info .progress {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.progress {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
   
+.progress-bar {
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFA12D;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    position: relative;
+    cursor: pointer;
+}
+  
+.percent-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    width: 100%;
+    color: #212121;
+    font-weight: bold;
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* Chrome */
+    word-wrap: break-word; /* IE */
+}
+
+.progress-bar.red {
+    background-color: #f74d4d;
+}
+
 /* Style for the ore table */
 .ore-table {
     width: 100%;

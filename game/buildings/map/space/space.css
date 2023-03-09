@@ -3,7 +3,7 @@
     --novaria-url:     url("../../../img/space/planets/novaria.png");
     --aethera-url:     url("../../../img/space/planets/aethera.png");
     --helion-url:      url("../../../img/space/planets/helion.png");
-    --terra-nova-url:  url("../../../img/space/planets/terra_nova.png");
+    --terra-nova-url:  url("../../../img/space/planets/terra.png");
     --arcadia-url:     url("../../../img/space/planets/arcadia.png");
     --cerulea-url:     url("../../../img/space/planets/cerulea.png");
     --xenos-url:       url("../../../img/space/planets/xenos.png");
@@ -296,6 +296,13 @@
     left: 5px;
     width: 10px;
     height: 10px;
+}
+
+#data-restet-b {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @keyframes spin {

@@ -174,7 +174,7 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 | Sandstone | $1000 | 70 | 120 | Aethera | 100 | A sedimentary rock formed by sand particles fused together over time, rich in minerals and trace elements. |
 | Dune Glass | $2000 | 60 | 100 | Aethera | 200 | A translucent mineral formed by the intense heat and pressure of sandstorms, used in high-tech optics. |
 | Iron Sand | $3000 | 50 | 90 | Aethera | 300 | A type of sand that contains high levels of iron and can be smelted into iron bars for construction. |
-| Scorchstone | $4000 | 40 | 80 | Aethera | 400 | Volcanic rock that is highly resistant to heat, often used in construction on Helion. |
+| Scorchstone | $4000 | 40 | 80 | Aethera | 400 | A volcanic rock that is highly resistant to heat, often used in construction on Helion. |
 | Sandstorm Crystal | $5000 | 30 | 70 | Aethera | 500 | A rare mineral found only in the most intense sandstorms, valuable for high-tech manufacturing. |
 | Sunstone | $6000 | 20 | 60 | Aethera | 600 | A gemstone formed by the intense heat and pressure of the Helion sun, prized for its color and clarity. |
 | Sand Ruby | $7000 | 15 | 50 | Aethera | 700 | A rare type of ruby found only in sand dunes, prized for its deep red color and durability. |
@@ -197,13 +197,13 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 | Thunderstone | $9000 | 5 | 30 | Aethera | 900 | A yellow mineral found in thunderstorms, highly conductive, used in lightning-based weaponry. |
 | Edenite | $10000 | 0 | 20 | Aethera | 1000 | A shimmering mineral found in the planet's most verdant areas, possesses powerful magical properties, used in mystical artifacts. |
 
-## Terra Nova
+## Arcadia
 
 | Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
 | -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |
 | Lumberite | $1000 | 70 | 120 | Aethera | 100 | A brown mineral found in the planet's giant trees, used for crafting high-quality wood and building materials. |
 | Forest Emerald | $2000 | 60 | 100 | Aethera | 200 | A green crystal found deep within the planet's forests, has mystical properties that enhance magical powers and spells. |
-| Fernite | $3000 | 50 | 90 | Aethera | 300 | A green crystal found deep within the planet's forests, has mystical properties that enhance magical powers and spells. |
+| Fernite | $3000 | 50 | 90 | Aethera | 300 | A blue fabric that is heat and fireresistant, know to be used as fire protection and for space ships. |
 | Beaststone | $4000 | 40 | 80 | Aethera | 400 | A dark grey mineral found in the bones and teeth of exotic creatures, known for its exceptional durability and resilience, ideal for weapons and armor. |
 | Vineite | $5000 | 30 | 70 | Aethera | 500 | A green mineral found in the vines and creepers that wrap around the trees, has the ability to regenerate and rejuvenate damaged tissue. |
 | Rootsapphire | $6000 | 20 | 60 | Aethera | 600 | A blue mineral found in the roots of the giant trees, has a calming effect on those who touch it, commonly used in potions and elixirs. |
@@ -212,7 +212,7 @@ Jonas was a miner in 2701 who started a mining business with big ambitions to co
 | Canopy Quartz | $9000 | 5 | 30 | Aethera | 900 | A clear crystal found high in the treetops, has the ability to refract light, used for creating lenses and prisms for telescopes and other devices. |
 | Jungle Ruby | $10000 | 0 | 20 | Aethera | 1000 | A red crystal found in the heart of the densest jungles, believed to have the power to control the growth and movement of plants, commonly used in spells and magical incantations. |
 
-## Aethera
+## Cerulea
 
 | Ore Form | Price | Minimum Depth | Maximum Depth | Planet | Rarity | Description |
 | -------- | ----- | ------------- | ------------- | ------ | ------ | ----------- |

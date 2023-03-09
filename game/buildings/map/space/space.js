@@ -1,4 +1,5 @@
 import { setStorageItem, getStorageItem, returnDictData, player_key, spaceplanetrotation_key } from '../../../global/js/storage.js';
+import { resetData } from '../../../global/js/reset_storage.js';
 import { playerDict } from '../../../data/playerdata.js';
 
 /* Ring radius */
@@ -70,3 +71,9 @@ devDiv.addEventListener("click", () => {
 
     window.location.href = newUrl+"game/dev/dev.html"
 });
+
+const resetDataB = document.getElementById("data-restet-b");
+
+resetDataB.addEventListener("click", () => {
+    resetData();
+})

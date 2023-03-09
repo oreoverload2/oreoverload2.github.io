@@ -1,2 +1,9 @@
-import { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, player_key, stockmarket_key } from 'storage.js';
+import { removeStorageItem, key_array } from './storage.js';
 
+function resetData() {
+    key_array.forEach(key => {
+        removeStorageItem(key);     
+    });
+}
+
+export { resetData }

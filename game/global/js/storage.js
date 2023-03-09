@@ -38,4 +38,6 @@ let stockmarket_key = "stockmarket_data";
 let state_key = "state_data";
 let spaceplanetrotation_key = "planetrotation_data"
 
-export { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, returnDictData, player_key, ore_key, stockmarket_key, state_key, spaceplanetrotation_key };
+let key_array = [player_key, ore_key, stockmarket_key, state_key, spaceplanetrotation_key]
+
+export { setStorageItem, getStorageItem, removeStorageItem, checkStorageItem, returnDictData, player_key, ore_key, stockmarket_key, state_key, spaceplanetrotation_key, key_array };
