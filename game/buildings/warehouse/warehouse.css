@@ -59,10 +59,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     font-size: 12px;
     width: 100%;
-    color: #212121;
+    min-width: 200px;
+    color: #ffffff;
     font-weight: bold;
     white-space: -moz-pre-wrap; /* Firefox */
     white-space: -o-pre-wrap; /* Opera */

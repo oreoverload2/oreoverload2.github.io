@@ -5,8 +5,8 @@ let worldstateDict = {
     novaria: {
         state: true,
         mine1: true,
-        mine2: false,
-        mine3: false,
+        mine2: true,
+        mine3: true,
     },
     aethera: {
         state: false,

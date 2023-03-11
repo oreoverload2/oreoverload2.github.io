@@ -77,3 +77,9 @@ const resetDataB = document.getElementById("data-restet-b");
 resetDataB.addEventListener("click", () => {
     resetData();
 })
+
+const settingsB = document.getElementById("settings");
+
+settingsB.addEventListener("click", () => {
+    window.location.href = '../../../settings/settings.html'
+})

@@ -99,7 +99,7 @@ let currentValue = sumArray(amounts);
 function updateProgressBar() {
     const percent_type = localPlayerDict.warehouse_perType;
     const percent = (currentValue - minValue) / (maxValue - minValue) * 100;
-    const percent_text = `${currentValue} | ${maxValue}`;
+    const percent_text = `${formatNumber(currentValue)} | ${formatNumber(maxValue)}`;
     const percent_text_perc = `${percent.toFixed(3)}%`;
     progressBar.style.width = `${percent}%`;
     if (percent_type === "short") {

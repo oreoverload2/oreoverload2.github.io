@@ -7,7 +7,7 @@ let oreDict = {
             planet: "Novaria",
             yield: 2,
             description: "A shimmering blue ore that is frozen solid at room temperature. It is a key component in advanced cryogenic technologies.",
-            amount: 100450,
+            amount: 0,
         },
         glacialite: {
             price: 2000,
@@ -16,7 +16,7 @@ let oreDict = {
             planet: "Novaria",
             yield: 1.9,
             description: "A white, powdery ore that forms in the cracks and crevices of Novaria's glaciers. It is used in the production of high-strength ceramics and composites.",
-            amount: 32340,
+            amount: 0,
         },
         crystaline_ice: {
             price: 3000,
@@ -25,7 +25,7 @@ let oreDict = {
             planet: "Novaria",
             yield: 1.8,
             description: "A transparent ore that looks like pure ice, but is actually a highly pure form of crystalline water.",
-            amount: 2320,
+            amount: 0,
         },
         frost_iron: {
             price: 4000,

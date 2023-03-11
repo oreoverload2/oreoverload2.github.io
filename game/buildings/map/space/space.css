@@ -298,6 +298,23 @@
     height: 10px;
 }
 
+.settings-div {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: #ffa12d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#settings-img {
+    width: inherit;
+    height: inherit;
+}
+
 #data-restet-b {
     position: absolute;
     bottom: 20px;
