@@ -2,7 +2,7 @@ let oreDict = {
     novaria: {
         cryonite: {
             price: 1000,
-            minDepth: 0,
+            minDepth: 1,
             maxDepth: 10,
             planet: "Novaria",
             yield: 2,

@@ -23,12 +23,17 @@ function returnDictData(key, dict) {
     const dictCheck = checkStorageItem(key)
 
     let localDict;
-    if (dictCheck) {
-        localDict = getStorageItem(key);
-        return localDict;
-    } else {
+
+    if (dictCheck === null || !dictCheck) {
         setStorageItem(key, dict);
+        console.log("Set storage for: "+key);
+        console.log(dict);
         return getStorageItem(key);
+    } else {
+        localDict = getStorageItem(key);
+        console.log("Got storage for: "+key);
+        console.log(localDict);
+        return localDict;
     }
 }
 
