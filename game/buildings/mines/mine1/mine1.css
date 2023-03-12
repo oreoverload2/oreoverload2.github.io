@@ -2,6 +2,7 @@
     display: flex;
     flex: 1;
     background-color: rgb(139, 45, 228);
+    overflow: hidden;
 }
 
 .left-container {
@@ -40,6 +41,16 @@
     align-items: center;
     position: relative;
     background-color: rgb(62, 182, 108);
+}
+
+#drill-visual {
+    width: 100%;
+    height: calc(100% - 75px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgb(116, 156, 131);
 }
 
 #stop-drill {

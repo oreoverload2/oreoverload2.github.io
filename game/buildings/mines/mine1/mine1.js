@@ -1,4 +1,4 @@
-import { returnDictData, setStorageItem, ore_key, player_key, novariamine_key, aetheramine_key, helionmine_key, terramine_key, arcadiamine_key, ceruleamine_key, xenosmine_key,titanusmine_key, eridanusmine_key, auriusmine_key} from '../../../global/js/storage.js';
+import { returnDictData, setStorageItem, ore_key, player_key, novariamine_key, aetheramine_key, helionmine_key, terramine_key, arcadiamine_key, ceruleamine_key, xenosmine_key, titanusmine_key, eridanusmine_key, auriusmine_key} from '../../../global/js/storage.js';
 import { addOre, removeOre} from '../../../global/js/orehandling.js';
 import { oreDict } from '../../../data/oredata.js';
 import { playerDict } from '../../../data/playerdata.js';
@@ -23,7 +23,7 @@ let localterraMineDict = returnDictData(terramine_key, terraMineDict);
 let localarcadiaMineDict = returnDictData(arcadiamine_key, arcadiaMineDict);
 let localceruleaMineDict = returnDictData(ceruleamine_key, ceruleaMineDict);
 let localxenosMineDict = returnDictData(xenosmine_key, xenosMineDict);
-let localtitanusMineDict = returnDictData(terramine_key, titanusMineDict);
+let localtitanusMineDict = returnDictData(titanusmine_key, titanusMineDict);
 let localeridanusMineDict = returnDictData(eridanusmine_key, eridanusMineDict);
 let localauriusMineDict = returnDictData(auriusmine_key, auriusMineDict);
 
@@ -49,6 +49,8 @@ const planet = localPlayerDict.planet;
 const mineLevel = localPlayerDict.mine;
 const mine = `mine${mineLevel}`;
 
+const stopDrill = document.getElementById("stop-drill");
+
 const mineDict = planetDict[planet];
 
 console.log(mine)
@@ -59,11 +61,26 @@ let shaft = 1;
 let weight = 1;
 let hardness = 1;
 
+let drill_active = mineDict[mine].active;
+
 function calculateDrillTime(head, engine, shaft, weight, hardness) {
     const baseTime = (weight*10) / (head * engine * shaft * weight);
     const timeMultiplier = 1 + (hardness * 10) * 1;
     const drillTime = (baseTime * 10) * timeMultiplier;
     return drillTime;
+}
+
+function startstopDrill() {
+    if (!drill_active) {
+        drill_active = true;
+        stopDrill.style.backgroundColor = "rgb(62, 182, 92)";
+        stopDrill.style.border = "solid 2px rgb(35, 109, 41)";
+    } else {
+        drill_active = false;
+        stopDrill.style.backgroundColor = "rgb(182, 76, 62)";
+        stopDrill.style.border = "solid 2px rgb(109, 44, 35)";
+    }
+    console.log(`Drill Active: ${drill_active}`);
 }
 
 function updateDrill() {
@@ -78,13 +95,15 @@ function updateDrill() {
     const drill_shaft_s = document.getElementById("drill-shaft");
     const drill_weight_s = document.getElementById("drill-weight");
 
+    const mine_planet = document.getElementById("mine-info-planet");
+
     drill_head_s.textContent = `Head: ${head}`;
     drill_engine_s.textContent = `Engine: ${engine}`;
     drill_shaft_s.textContent = `Shaft: ${shaft}`;
     drill_weight_s.textContent = `Weight: ${weight}`;
-};
 
-updateDrill();
+    mine_planet.textContent = `Planet: ${planet}`;
+};
 
 console.log(`Drill Head:    ${head}`);
 console.log(`Drill Engine:  ${engine}`);
@@ -95,4 +114,10 @@ console.log(`Drill Weight:  ${weight}`);
 let drillTime = calculateDrillTime(head, engine, shaft, weight, hardness);
 console.log(`It will take ${drillTime.toFixed(2)} seconds to drill one meter down.`);
 
+stopDrill.addEventListener("click", () => {
+    startstopDrill()
+})
 
+
+updateDrill();
+startstopDrill();

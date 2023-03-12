@@ -10,6 +10,7 @@ let eridanusMineDict = {
         },
         depth: 0,
         miners: 0,
+        active: false,
     },
     mine2: {
         drill: {
@@ -22,6 +23,7 @@ let eridanusMineDict = {
         },
         depth: 0,
         miners: 0,
+        active: false,
     },
     mine3: {
         drill: {
@@ -34,6 +36,7 @@ let eridanusMineDict = {
         },
         depth: 0,
         miners: 0,
+        active: false,
     }
 }
 

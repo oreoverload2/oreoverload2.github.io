@@ -9,10 +9,10 @@ let worldstateDict = {
         mine3: true,
     },
     aethera: {
-        state: false,
-        mine1: false,
-        mine2: false,
-        mine3: false,
+        state: true,
+        mine1: true,
+        mine2: true,
+        mine3: true,
     },
     helion: {
         state: false,

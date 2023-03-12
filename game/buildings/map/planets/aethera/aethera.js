@@ -23,6 +23,10 @@ buttons_mine.forEach(mine => {
             const p = mine.querySelector('p');
             p.style.backgroundColor = '#6B3B00';
         }
+    } else {
+        mine.addEventListener("click", () => {
+            window.location.href = `../../../mines/${minenum}/${minenum}.html`
+        })
     }
 });
 
@@ -40,5 +44,13 @@ buttons_buildings.forEach(building => {
             const p = building.querySelector('p');
             p.style.backgroundColor = '#6B3B00';
         }
+    } else {
+        building.addEventListener("click", () => {
+            if (buildingname === "shop") {
+                window.location.href = `../../../${buildingname}/${buildingname}/${buildingname}.html`
+            } else {
+                window.location.href = `../../../${buildingname}/${buildingname}.html`
+            }
+        })
     }
 });
