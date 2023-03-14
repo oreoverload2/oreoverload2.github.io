@@ -26,13 +26,9 @@ function returnDictData(key, dict) {
 
     if (dictCheck === null || !dictCheck) {
         setStorageItem(key, dict);
-        console.log("Set storage for: "+key);
-        console.log(dict);
         return getStorageItem(key);
     } else {
         localDict = getStorageItem(key);
-        console.log("Got storage for: "+key);
-        console.log(localDict);
         return localDict;
     }
 }

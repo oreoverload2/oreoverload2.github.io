@@ -1,4 +1,5 @@
 let playerDict = {
+    development: true,
     money: 1000,
     planet: "novaria",
     mine: 1,

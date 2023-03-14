@@ -1,6 +1,7 @@
 let oreDict = {
     novaria: {
         cryonite: {
+            name: "cryonite",
             price: 1000,
             minDepth: 1,
             maxDepth: 10,
@@ -10,6 +11,7 @@ let oreDict = {
             amount: 0,
         },
         glacialite: {
+            name: "glacialite",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -19,6 +21,7 @@ let oreDict = {
             amount: 0,
         },
         crystaline_ice: {
+            name: "crystaline_ice",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -28,6 +31,7 @@ let oreDict = {
             amount: 0,
         },
         frost_iron: {
+            name: "frost_iron",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -37,6 +41,7 @@ let oreDict = {
             amount: 0,
         },
         frostbite: {
+            name: "frostbite",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -46,6 +51,7 @@ let oreDict = {
             amount: 0,
         },
         blizzardstone: {
+            name: "blizzardstone",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -55,6 +61,7 @@ let oreDict = {
             amount: 0,
         },
         snow_quartz: {
+            name: "snow_quartz",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -64,6 +71,7 @@ let oreDict = {
             amount: 0,
         },
         auroraite: {
+            name: "auroraite",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -73,6 +81,7 @@ let oreDict = {
             amount: 0,
         },
         ice_diamond: {
+            name: "ice_diamond",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -82,6 +91,7 @@ let oreDict = {
             amount: 0,
         },
         cryosium: {
+            name: "cryosium",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -93,6 +103,7 @@ let oreDict = {
     },
     aethera: {
         voidstone: {
+            name: "voidstone",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -102,6 +113,7 @@ let oreDict = {
             amount: 0,
         },
         solarium: {
+            name: "solarium",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -111,6 +123,7 @@ let oreDict = {
             amount: 0,
         },
         nebulite: {
+            name: "nebulite",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -120,6 +133,7 @@ let oreDict = {
             amount: 0,
         },
         lunarite: {
+            name: "lunarite",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -129,6 +143,7 @@ let oreDict = {
             amount: 0,
         },
         celestium: {
+            name: "celestium",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -138,6 +153,7 @@ let oreDict = {
             amount: 0,
         },
         star_metal: {
+            name: "star_metal",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -147,6 +163,7 @@ let oreDict = {
             amount: 0,
         },
         cometstone: {
+            name: "cometstone",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -156,6 +173,7 @@ let oreDict = {
             amount: 0,
         },
         astralite: {
+            name: "astralite",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -165,6 +183,7 @@ let oreDict = {
             amount: 0,
         },
         aeromite: {
+            name: "aeromite",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -174,6 +193,7 @@ let oreDict = {
             amount: 0,
         },
         aetherium: {
+            name: "aetherium",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -185,6 +205,7 @@ let oreDict = {
     },
     helion: {
         sandstone: {
+            name: "sandstone",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -194,6 +215,7 @@ let oreDict = {
             amount: 0,
         },
         dune_glass: {
+            name: "dune_glass",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -203,6 +225,7 @@ let oreDict = {
             amount: 0,
         },
         iron_sand: {
+            name: "iron_sand",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -212,6 +235,7 @@ let oreDict = {
             amount: 0,
         },
         scorchstone: {
+            name: "scorchstone",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -221,6 +245,7 @@ let oreDict = {
             amount: 0,
         },
         sandstorm_crystal: {
+            name: "sandstorm_crystal",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -230,6 +255,7 @@ let oreDict = {
             amount: 0,
         },
         sunstone: {
+            name: "sunstone",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -239,6 +265,7 @@ let oreDict = {
             amount: 0,
         },
         sand_ruby: {
+            name: "sand_ruby",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -248,6 +275,7 @@ let oreDict = {
             amount: 0,
         },
         desert_emerald: {
+            name: "desert_emerald",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -257,6 +285,7 @@ let oreDict = {
             amount: 0,
         },
         sandstone_marble: {
+            name: "sandstone_marble",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -266,6 +295,7 @@ let oreDict = {
             amount: 0,
         },
         dusty_quartz: {
+            name: "dusty_quartz",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -277,6 +307,7 @@ let oreDict = {
     },
     terra: {
         verdanite: {
+            name: "verdanite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -286,6 +317,7 @@ let oreDict = {
             amount: 0,
         },
         ruinstone: {
+            name: "ruinstone",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -295,6 +327,7 @@ let oreDict = {
             amount: 0,
         },
         predatorite: {
+            name: "predatorite",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -304,6 +337,7 @@ let oreDict = {
             amount: 0,
         },
         bioluminite: {
+            name: "bioluminite",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -313,6 +347,7 @@ let oreDict = {
             amount: 0,
         },
         herbite: {
+            name: "herbite",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -322,6 +357,7 @@ let oreDict = {
             amount: 0,
         },
         ferrovine: {
+            name: "ferrovine",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -331,6 +367,7 @@ let oreDict = {
             amount: 0,
         },
         fossilite: {
+            name: "fossilite",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -340,6 +377,7 @@ let oreDict = {
             amount: 0,
         },
         skyshard: {
+            name: "skyshard",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -349,6 +387,7 @@ let oreDict = {
             amount: 0,
         },
         thunderstone: {
+            name: "thunderstone",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -358,6 +397,7 @@ let oreDict = {
             amount: 0,
         },
         edenite: {
+            name: "edenite",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -369,6 +409,7 @@ let oreDict = {
     },
     arcadia: {
         lumberite: {
+            name: "lumberite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -378,6 +419,7 @@ let oreDict = {
             amount: 0,
         },
         forest_emerald: {
+            name: "forest_emerald",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -387,6 +429,7 @@ let oreDict = {
             amount: 0,
         },
         fernite: {
+            name: "fernite",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -396,6 +439,7 @@ let oreDict = {
             amount: 0,
         },
         beaststone: {
+            name: "beaststone",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -405,6 +449,7 @@ let oreDict = {
             amount: 0,
         },
         vineite: {
+            name: "vineite",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -414,6 +459,7 @@ let oreDict = {
             amount: 0,
         },
         rootsapphire: {
+            name: "rootsapphire",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -423,6 +469,7 @@ let oreDict = {
             amount: 0,
         },
         mossite: {
+            name: "mossite",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -432,6 +479,7 @@ let oreDict = {
             amount: 0,
         },
         woodstone: {
+            name: "woodstone",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -441,6 +489,7 @@ let oreDict = {
             amount: 0,
         },
         canopy_quartz: {
+            name: "canopy_quartz",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -450,6 +499,7 @@ let oreDict = {
             amount: 0,
         },
         jungle_ruby: {
+            name: "jungle_ruby",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -461,6 +511,7 @@ let oreDict = {
     },
     cerulea: {
         aquamarite: {
+            name: "aquamarite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -470,6 +521,7 @@ let oreDict = {
             amount: 0,
         },
         stormstone: {
+            name: "stormstone",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -479,6 +531,7 @@ let oreDict = {
             amount: 0,
         },
         tidecrystal: {
+            name: "tidecrystal",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -488,6 +541,7 @@ let oreDict = {
             amount: 0,
         },
         coralium: {
+            name: "coralium",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -497,6 +551,7 @@ let oreDict = {
             amount: 0,
         },
         leviathanite: {
+            name: "leviathanite",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -506,6 +561,7 @@ let oreDict = {
             amount: 0,
         },
         kelpstone: {
+            name: "kelpstone",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -515,6 +571,7 @@ let oreDict = {
             amount: 0,
         },
         bioluminite: {
+            name: "bioluminite",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -524,6 +581,7 @@ let oreDict = {
             amount: 0,
         },
         seastone: {
+            name: "seastone",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -533,6 +591,7 @@ let oreDict = {
             amount: 0,
         },
         krakenite: {
+            name: "krakenite",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -542,6 +601,7 @@ let oreDict = {
             amount: 0,
         },
         mermaidite: {
+            name: "mermaidite",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -553,6 +613,7 @@ let oreDict = {
     },
     xenos: {
         xenomite: {
+            name: "xenomite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -562,6 +623,7 @@ let oreDict = {
             amount: 0,
         },
         ruinsteel: {
+            name: "ruinsteel",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -571,6 +633,7 @@ let oreDict = {
             amount: 0,
         },
         xenocite: {
+            name: "xenocite",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -580,6 +643,7 @@ let oreDict = {
             amount: 0,
         },
         xenolith: {
+            name: "xenolith",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -589,6 +653,7 @@ let oreDict = {
             amount: 0,
         },
         eonite: {
+            name: "eonite",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -598,6 +663,7 @@ let oreDict = {
             amount: 0,
         },
         vortexium: {
+            name: "vortexium",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -607,6 +673,7 @@ let oreDict = {
             amount: 0,
         },
         novaite: {
+            name: "novaite",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -616,6 +683,7 @@ let oreDict = {
             amount: 0,
         },
         gravitonite: {
+            name: "gravitonite",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -625,6 +693,7 @@ let oreDict = {
             amount: 0,
         },
         neuronium: {
+            name: "neuronium",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -634,6 +703,7 @@ let oreDict = {
             amount: 0,
         },
         chronolith: {
+            name: "chronolith",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -645,6 +715,7 @@ let oreDict = {
     },
     titanus: {
         titanite: {
+            name: "titanite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -654,6 +725,7 @@ let oreDict = {
             amount: 0,
         },
         smogstone: {
+            name: "smogstone",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -663,6 +735,7 @@ let oreDict = {
             amount: 0,
         },
         spikeite: {
+            name: "spikeite",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -672,6 +745,7 @@ let oreDict = {
             amount: 0,
         },
         spirestone: {
+            name: "spirestone",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -681,6 +755,7 @@ let oreDict = {
             amount: 0,
         },
         skydust: {
+            name: "skydust",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -690,6 +765,7 @@ let oreDict = {
             amount: 0,
         },
         stormite: {
+            name: "stormite",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -699,6 +775,7 @@ let oreDict = {
             amount: 0,
         },
         nebulium: {
+            name: "nebulium",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -708,6 +785,7 @@ let oreDict = {
             amount: 0,
         },
         lavaquartz: {
+            name: "lavaquartz",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -717,6 +795,7 @@ let oreDict = {
             amount: 0,
         },
         sonicite: {
+            name: "sonicite",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -726,6 +805,7 @@ let oreDict = {
             amount: 0,
         },
         gravitite: {
+            name: "gravitite",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -737,6 +817,7 @@ let oreDict = {
     },
     eridanus: {
         bioluminite: {
+            name: "bioluminite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -746,6 +827,7 @@ let oreDict = {
             amount: 0,
         },
         tunnelite: {
+            name: "tunnelite",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -755,6 +837,7 @@ let oreDict = {
             amount: 0,
         },
         voidstone: {
+            name: "voidstone",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -764,6 +847,7 @@ let oreDict = {
             amount: 0,
         },
         luminescentite: {
+            name: "luminescentite",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -773,6 +857,7 @@ let oreDict = {
             amount: 0,
         },
         flowstone: {
+            name: "flowstone",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -782,6 +867,7 @@ let oreDict = {
             amount: 0,
         },
         venomite: {
+            name: "venomite",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -791,6 +877,7 @@ let oreDict = {
             amount: 0,
         },
         sparkstone: {
+            name: "sparkstone",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -800,6 +887,7 @@ let oreDict = {
             amount: 0,
         },
         crystalite: {
+            name: "crystalite",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -809,6 +897,7 @@ let oreDict = {
             amount: 0,
         },
         circuitite: {
+            name: "circuitite",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -818,6 +907,7 @@ let oreDict = {
             amount: 0,
         },
         fossilstone: {
+            name: "fossilstone",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
@@ -829,6 +919,7 @@ let oreDict = {
     },
     aurius: {
         aurinite: {
+            name: "aurinite",
             price: 1000,
             minDepth: 0,
             maxDepth: 10,
@@ -838,6 +929,7 @@ let oreDict = {
             amount: 0,
         },
         harmonium: {
+            name: "harmonium",
             price: 2000,
             minDepth: 11,
             maxDepth: 20,
@@ -847,6 +939,7 @@ let oreDict = {
             amount: 0,
         },
         naturium: {
+            name: "naturium",
             price: 3000,
             minDepth: 21,
             maxDepth: 30,
@@ -856,6 +949,7 @@ let oreDict = {
             amount: 0,
         },
         crystaline: {
+            name: "crystaline",
             price: 4000,
             minDepth: 31,
             maxDepth: 40,
@@ -865,6 +959,7 @@ let oreDict = {
             amount: 0,
         },
         vitalium: {
+            name: "vitalium",
             price: 5000,
             minDepth: 41,
             maxDepth: 50,
@@ -874,6 +969,7 @@ let oreDict = {
             amount: 0,
         },
         verdivite: {
+            name: "verdivite",
             price: 6000,
             minDepth: 51,
             maxDepth: 60,
@@ -883,6 +979,7 @@ let oreDict = {
             amount: 0,
         },
         sunsetite: {
+            name: "sunsetite",
             price: 7000,
             minDepth: 61,
             maxDepth: 70,
@@ -892,6 +989,7 @@ let oreDict = {
             amount: 0,
         },
         serenium: {
+            name: "serenium",
             price: 8000,
             minDepth: 71,
             maxDepth: 80,
@@ -901,6 +999,7 @@ let oreDict = {
             amount: 0,
         },
         glitterite: {
+            name: "glitterite",
             price: 9000,
             minDepth: 81,
             maxDepth: 90,
@@ -910,6 +1009,7 @@ let oreDict = {
             amount: 0,
         },
         lumicite: {
+            name: "lumicite",
             price: 10000,
             minDepth: 91,
             maxDepth: 100,
